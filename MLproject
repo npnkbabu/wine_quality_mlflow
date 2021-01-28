@@ -1,0 +1,9 @@
+name: wine-quality-mlflow
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      n_jobs: {type: int, default: 5}
+      normalize: {type: bool, default: true}
+    command: "python wine_quality.py"
