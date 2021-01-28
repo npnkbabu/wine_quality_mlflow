@@ -1,7 +1,7 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 
-from IPython import get_ipython
+ 
 
 
 # we need to user regression to predict quality column (3-5)
@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error,r2_score
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+ 
 #import mlflow
 #import mlflow.sklearn
 import logging
